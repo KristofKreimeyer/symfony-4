@@ -1,5 +1,10 @@
 monolog:
     handlers:
+        markdown_logging:
+            type: stream
+            path: "%kernel.logs_dir%/markdown.log"
+            level: debug
+            channels: ["markdown"]
         main:
             type: stream
             path: "%kernel.logs_dir%/%kernel.environment%.log"

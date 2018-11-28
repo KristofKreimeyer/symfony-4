@@ -46,6 +46,7 @@ class ArticleController extends AbstractController
         $repository = $em->getRepository(Article::class);
         /** @var Article $article */
         $article = $repository->findOneBy(['slug' => $slug]);
+        
         if (!$article) {
             throw $this->createNotFoundException(sprintf('No article for slug "%s"', $slug));
         }

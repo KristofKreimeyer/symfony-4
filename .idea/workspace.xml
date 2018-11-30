@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f733736-10f6-4354-8e3d-4b8ae7b5f588" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +38,7 @@
           <entry key="env" value="1" />
           <entry key="js" value="3" />
           <entry key="log" value="1" />
-          <entry key="php" value="28" />
+          <entry key="php" value="29" />
           <entry key="twig" value="7" />
           <entry key="yaml" value="9" />
         </counts>
@@ -48,7 +48,7 @@
           <entry key=".env file" value="1" />
           <entry key="CSS" value="2" />
           <entry key="JavaScript" value="3" />
-          <entry key="PHP" value="28" />
+          <entry key="PHP" value="29" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Twig" value="7" />
           <entry key="YAML" value="9" />
@@ -57,9 +57,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="133" />
+          <entry key="dummy" value="2" />
           <entry key="env" value="21" />
           <entry key="js" value="66" />
-          <entry key="php" value="2497" />
+          <entry key="php" value="2514" />
           <entry key="twig" value="818" />
           <entry key="yaml" value="262" />
         </counts>
@@ -69,7 +70,8 @@
           <entry key=".env file" value="21" />
           <entry key="CSS" value="133" />
           <entry key="JavaScript" value="66" />
-          <entry key="PHP" value="2496" />
+          <entry key="PHP" value="2513" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
           <entry key="Twig" value="818" />
           <entry key="YAML" value="262" />
@@ -121,10 +123,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DataFixtures/CommentFixture.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
               <folding>
-                <element signature="e#126#169#0#PHP" expanded="true" />
+                <element signature="e#36#59#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,34 +154,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-              <folding>
-                <element signature="e#30#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-              <folding>
-                <element signature="e#36#59#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/CommentFixture.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="179">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#36#59#0#PHP" expanded="true" />
               </folding>
@@ -238,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/Repository/ArticleRepository.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/AOCommentFixture.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" />
       </list>
     </option>
@@ -342,8 +330,8 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="width" value="1700" />
+    <option name="height" value="1070" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -412,7 +400,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/dev/symfony-tutorial/config/routes.yaml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543570895086" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543572613818" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -461,13 +449,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46034000" />
+    <option name="totallyTimeSpent" value="46770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27567238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27567238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -602,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#28#59#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        <state relative-caret-position="179">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#36#59#0#PHP" expanded="true" />
           </folding>
@@ -747,18 +732,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixture.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding>
-            <element signature="e#126#169#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/CommentFixture.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="153">
+          <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
           <folding>
             <element signature="e#36#59#0#PHP" expanded="true" />
           </folding>

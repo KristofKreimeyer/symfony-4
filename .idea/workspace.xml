@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f733736-10f6-4354-8e3d-4b8ae7b5f588" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-tutorial.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/CommentAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CommentAdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/CommentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/comment_admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/comment_admin/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,9 +47,9 @@
           <entry key="env" value="1" />
           <entry key="js" value="3" />
           <entry key="log" value="1" />
-          <entry key="php" value="37" />
+          <entry key="php" value="38" />
           <entry key="twig" value="13" />
-          <entry key="yaml" value="10" />
+          <entry key="yaml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -50,10 +57,10 @@
           <entry key=".env file" value="1" />
           <entry key="CSS" value="2" />
           <entry key="JavaScript" value="3" />
-          <entry key="PHP" value="37" />
+          <entry key="PHP" value="38" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Twig" value="13" />
-          <entry key="YAML" value="10" />
+          <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -62,8 +69,8 @@
           <entry key="dummy" value="2" />
           <entry key="env" value="21" />
           <entry key="js" value="66" />
-          <entry key="php" value="2610" />
-          <entry key="twig" value="999" />
+          <entry key="php" value="2642" />
+          <entry key="twig" value="1009" />
           <entry key="yaml" value="262" />
         </counts>
       </usages-collector>
@@ -72,10 +79,10 @@
           <entry key=".env file" value="21" />
           <entry key="CSS" value="133" />
           <entry key="JavaScript" value="66" />
-          <entry key="PHP" value="2609" />
+          <entry key="PHP" value="2641" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
-          <entry key="Twig" value="999" />
+          <entry key="Twig" value="1009" />
           <entry key="YAML" value="262" />
         </counts>
       </usages-collector>
@@ -86,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/CommentAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="306">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="e#34#71#0#PHP" expanded="true" />
               </folding>
@@ -95,11 +102,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Repository/CommentRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="485">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="e#34#57#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/packages/knp_paginator.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -119,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/comment_admin/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+            <state relative-caret-position="706">
+              <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -201,6 +220,7 @@
       <find>getToken</find>
       <find>$article</find>
       <find>No comments found</find>
+      <find>knp_paginator:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,10 +257,11 @@
         <option value="$PROJECT_DIR$/templates/article/show.html.twig" />
         <option value="$PROJECT_DIR$/templates/content_base.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/twig_extensions.yaml" />
-        <option value="$PROJECT_DIR$/src/Controller/CommentAdminController.php" />
-        <option value="$PROJECT_DIR$/templates/comment_admin/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Entity/Comment.php" />
+        <option value="$PROJECT_DIR$/templates/comment_admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/CommentAdminController.php" />
         <option value="$PROJECT_DIR$/src/Repository/CommentRepository.php" />
+        <option value="$PROJECT_DIR$/config/packages/knp_pagination.yaml" />
       </list>
     </option>
   </component>
@@ -340,9 +361,11 @@
       <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
       <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
       <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1700" />
@@ -366,6 +389,12 @@
               <item name="symfony-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symfony-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="symfony-tutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -409,7 +438,7 @@
     <property name="SearchEverywhereHistoryKey" value="AppVar&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543583034452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543857936833" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -454,12 +483,12 @@
       <workItem from="1543339330070" duration="9671000" />
       <workItem from="1543425684257" duration="7742000" />
       <workItem from="1543563194235" duration="7060000" />
-      <workItem from="1543854886922" duration="582000" />
+      <workItem from="1543854886922" duration="2273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55188000" />
+    <option name="totallyTimeSpent" value="56879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -511,13 +540,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/test/framework.yaml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/knp_markdown.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -737,16 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CommentAdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#34#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/twig-bridge/AppVariable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -775,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/comment_admin/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Comment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -792,10 +797,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/comment_admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CommentAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#34#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/ContainerL4yV1Lx/getKnpPaginator_Subscriber_PaginateService.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/knp_markdown.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/CommentRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="485">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/knp_paginator.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>

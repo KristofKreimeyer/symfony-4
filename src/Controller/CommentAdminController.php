@@ -16,7 +16,7 @@ class CommentAdminController extends AbstractController
     {
         $q = $request->query->get('q');
         $comments = $repository->findAllWithSearch($q);
-        
+
         return $this->render('comment_admin/index.html.twig', [
             'comments' => $comments
             ,

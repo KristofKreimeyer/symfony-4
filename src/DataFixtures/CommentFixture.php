@@ -4,7 +4,6 @@ namespace App\DataFixtures;
 
 use App\Entity\Comment;
 use App\Entity\Article;
-use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
 
 class CommentFixture extends BaseFixture /*implements DependentFixtureInterface */

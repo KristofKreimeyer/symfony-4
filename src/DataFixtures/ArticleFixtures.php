@@ -4,9 +4,11 @@ namespace App\DataFixtures;
 
 use App\Entity\Article;
 use App\Entity\Comment;
+use App\Entity\Tag;
+use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
 
-class ArticleFixtures extends BaseFixture
+class ArticleFixtures extends BaseFixture implements DependentFixtureInterface
 
 {
     private static $articleTitles = [
@@ -27,7 +29,11 @@ class ArticleFixtures extends BaseFixture
     public function loadData(ObjectManager $manager)
 
     {
-        $this->createMany(Article::class, 10, function(Article $article, $count) use ($manager) {
+        $this->createMany(/**
+         * @param Article $article
+         * @param $count
+         */
+            Article::class, 10, function(Article $article, $count) use ($manager) {
             $article->setTitle($this->faker->randomElement(self::$articleTitles))
                 ->setSlug($this->faker->slug)
                 ->setContent(<<<EOF
@@ -55,7 +61,20 @@ EOF
                 ->setHeartCount($this->faker->numberBetween(5, 100))
                 ->setImageFilename($this->faker->randomElement(self::$articleImages));
             ;
+
+            $tags = $this->getRandomReferences(Tag::class, $this->faker->numberBetween(0, 5));
+            foreach ($tags as $tag) {
+                $article->addTag($tag);
+            }
+
         });
         $manager->flush();
+    }
+
+    public function getDependencies()
+    {
+        return [
+            TagFixture::class,
+        ];
     }
 }
